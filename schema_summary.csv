@@ -1,0 +1,30 @@
+dataset,column,dtype,rows,null_count,null_pct,n_unique,min_value,max_value,sample_values
+train,Store,int64,1001599,0,0.0,1115,1.0,1115.0,
+train,DayOfWeek,int64,1001599,0,0.0,7,1.0,7.0,
+train,Date,datetime64[ns],1001599,0,0.0,928,2013-01-01 00:00:00,2015-07-17 00:00:00,
+train,Sales,int64,1001599,0,0.0,21693,0.0,41551.0,
+train,Customers,int64,1001599,0,0.0,4083,0.0,7388.0,
+train,Open,int64,1001599,0,0.0,2,0.0,1.0,
+train,Promo,int64,1001599,0,0.0,2,0.0,1.0,
+train,StateHoliday,string,1001599,0,0.0,4,,,a | 0 | b | c
+train,SchoolHoliday,int64,1001599,0,0.0,2,0.0,1.0,
+train,Id,int64,1001599,0,0.0,637137,0.0,1017207.0,
+test,Id,int64,1115,0,0.0,1115,2325.0,1016764.0,
+test,Store,int64,1115,0,0.0,1115,1.0,1115.0,
+test,DayOfWeek,int64,1115,0,0.0,1,5.0,5.0,
+test,Date,datetime64[ns],1115,0,0.0,1,2015-07-31 00:00:00,2015-07-31 00:00:00,
+test,Customers,int64,1115,0,0.0,653,0.0,3745.0,
+test,Open,int64,1115,0,0.0,2,0.0,1.0,
+test,Promo,int64,1115,0,0.0,1,1.0,1.0,
+test,StateHoliday,string,1115,0,0.0,1,,,0
+test,SchoolHoliday,int64,1115,0,0.0,2,0.0,1.0,
+store,Store,int64,1115,0,0.0,1115,1.0,1115.0,
+store,StoreType,string,1115,0,0.0,4,,,c | a | d | b
+store,Assortment,string,1115,0,0.0,3,,,a | c | b
+store,CompetitionDistance,float64,1115,3,0.0026905829596412557,654,20.0,75860.0,
+store,CompetitionOpenSinceMonth,float64,1115,354,0.31748878923766816,12,1.0,12.0,
+store,CompetitionOpenSinceYear,float64,1115,354,0.31748878923766816,23,1900.0,2015.0,
+store,Promo2,int64,1115,0,0.0,2,0.0,1.0,
+store,Promo2SinceWeek,float64,1115,544,0.48789237668161434,24,1.0,50.0,
+store,Promo2SinceYear,float64,1115,544,0.48789237668161434,7,2009.0,2015.0,
+store,PromoInterval,string,1115,544,0.48789237668161434,3,,,"Jan,Apr,Jul,Oct | Feb,May,Aug,Nov | Mar,Jun,Sept,Dec"

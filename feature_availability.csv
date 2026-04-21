@@ -1,0 +1,19 @@
+feature,available_in_train,available_in_test,available_in_store,allowed_in_final_model,reason
+Date,True,True,False,True,Known from the forecast calendar.
+Store,True,True,True,True,Known store identifier used to join metadata and historical aggregates.
+DayOfWeek,True,True,False,True,Deterministic from the forecast date.
+Open,True,True,False,True,Known business calendar signal used to set closed-store sales to zero.
+Promo,True,True,False,True,Promotions can be planned ahead of the forecast date.
+StateHoliday,True,True,False,True,Known holiday calendar feature.
+SchoolHoliday,True,True,False,True,Known holiday calendar feature.
+Customers,True,True,False,False,"Present in Kaggle test data but not realistically known at forecast time, so excluded from the production-safe feature set."
+Sales,True,False,False,False,Target only.
+StoreType,False,False,True,True,Store metadata available before prediction after joining on Store.
+Assortment,False,False,True,True,Store metadata available before prediction after joining on Store.
+CompetitionDistance,False,False,True,True,Store metadata available before prediction after joining on Store.
+CompetitionOpenSinceMonth,False,False,True,True,Store metadata available before prediction after joining on Store.
+CompetitionOpenSinceYear,False,False,True,True,Store metadata available before prediction after joining on Store.
+Promo2,False,False,True,True,Store metadata available before prediction after joining on Store.
+Promo2SinceWeek,False,False,True,True,Store metadata available before prediction after joining on Store.
+Promo2SinceYear,False,False,True,True,Store metadata available before prediction after joining on Store.
+PromoInterval,False,False,True,True,Store metadata available before prediction after joining on Store.
