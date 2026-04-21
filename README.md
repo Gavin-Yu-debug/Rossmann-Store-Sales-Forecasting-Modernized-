@@ -52,7 +52,7 @@ Among them, CatBoost performed best on the final holdout set and was selected as
 CatBoost: RMSPE 0.1528, MAE 709.18, RMSE 1176.70
 XGBoost: RMSPE 0.1737, MAE 833.99, RMSE 1369.33
 LightGBM: RMSPE 0.1777, MAE 845.89, RMSE 1406.48
-Key Findings
+
 
 Some useful findings from the project:
 
